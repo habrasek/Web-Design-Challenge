@@ -2,6 +2,10 @@
   background: rebeccapurple;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 .box {
   min-height: 50px;
   padding: 5px;
