@@ -9,7 +9,7 @@
   <!-- Bring in our bootstrap stylesheet -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
           <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="pages/comparisons.html">Comparisons</a>
+          <a class="nav-link" href="comparisons.html">Comparisons</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Data</a>
@@ -51,14 +51,39 @@
 
   <!-- Our rows function in containers (grid created). -->
   <div class="container">
+      <div class = "row">
+        <div class="col-md-8">
+           <div class="box purple">
+              <p>Maximum Temperature and Latitude</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <img src = "../images/Fig1.png" style="width:400px;height:275px;">
+                </div>
+
+                <div class="col-md-6">
+                  <p>
+                    A latitude of 0 degrees represents the border between the northern and southern hemisphere, also known as the euqator. 
+                    Because of this, the cities on the equator get more sunlight and thus higher temperatures.  This is why the maximum temperatures
+                    get lower the further one is from the equator.
+                  </p>
+                </div>
 
 
+              </div>
+           </div>
+                <!---<p>Hello</p>--->
+        </div>
+      </div>
     
 
   </div>
 
   <!-- MAKE SURE TO INCLUDE BOOTSTRAP JAVASCRIPT -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+
+
 </body>
 
 </html>
